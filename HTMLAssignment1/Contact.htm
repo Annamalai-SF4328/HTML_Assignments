@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="Contact.css">
+    <script src="Contact.js"></script>
+  
+</head>
+
+<body>
+
+    <div id="box">
+        <h1 id="head">Contact Us</h1>
+        <p id="para"><strong>Contact us today, and get reply with in 24 hours!</strong></p>
+
+        <form action="" method="post">
+
+            <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[a-zA-Z]+" title="Please enter alpha letters only" required><br>
+
+            <input type="email" id="email" name="email" placeholder="Enter your Email Address" pattern="[a-z0-9.]+@[a-z0-9.]+\.[a-z]{2,}" required><br>
+
+            <input type="tel" id="phone" name="phone" placeholder="Enter your Phone #" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" title="Enter like 1-234-567-890" required><br>
+
+            <input type="url" id="website" name="website" placeholder="Enter your Web Site" pattern="https://.*"><br>
+
+            <textarea id="message" name="message" rows="10" cols="30" placeholder="Enter your message" maxlength="140" required></textarea><br>
+
+            <input type="submit" id="submit" name="submit"><br>
+
+        </form>
+
+        <section id="resultBox"></section>
+    </div>
+</body>
+
+</html
